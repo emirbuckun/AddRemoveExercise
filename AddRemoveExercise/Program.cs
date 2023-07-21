@@ -43,7 +43,7 @@ namespace AddRemoveExercise
 
     private static void PrintMenu(ICollection collection)
     {
-      Console.WriteLine("\nMevcut Liste: ");
+      Console.WriteLine("\nCurrent List: ");
       foreach (int item in collection)
         Console.WriteLine(item);
       Console.WriteLine("\nChoose an operation:\n1. Add\n2. Remove\n3. Exit");
